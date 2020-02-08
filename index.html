@@ -5,502 +5,488 @@
 <head>
 
 
-
-	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
-	<script type="text/javascript">
-			$("#btnPrint").live("click", function () {
-					var divContents = $("#dvContainer").html();
-					var printWindow = window.open('', '', 'height=400,width=800');
-					printWindow.document.write('<html><head><title>DIV Contents</title>');
-					printWindow.document.write('</head><body >');
-					printWindow.document.write(divContents);
-					printWindow.document.write('</body></html>');
-					printWindow.document.close();
-					printWindow.print();
-			});
-	</script>
-
-
-
-
-
-
-
 	<meta name="generator" content="Hugo 0.64.0" />
 
 	<!-- Global site tag (gtag.js) - Google Analytics -->
 	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-158036028-2"></script>
 	<script>
-	  window.dataLayer = window.dataLayer || [];
-	  function gtag(){dataLayer.push(arguments);}
-	  gtag('js', new Date());
+		window.dataLayer = window.dataLayer || [];
 
-	  gtag('config', 'UA-158036028-2');
+		function gtag() {
+			dataLayer.push(arguments);
+		}
+		gtag('js', new Date());
+
+		gtag('config', 'UA-158036028-2');
 	</script>
 
 
 
-    <title>Malnati, Marcos Miguel</title>
+	<title>Malnati, Marcos Miguel</title>
 
 
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="DevResume - Bootstrap 4 Resume/CV Template For Software Developers">
-    <meta name="author" content="CowboySmall">
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="DevResume - Bootstrap 4 Resume/CV Template For Software Developers">
+	<meta name="author" content="CowboySmall">
 
-    <link rel="shortcut icon" href="favicon.ico">
-
-
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900">
+	<link rel="shortcut icon" href="favicon.ico">
 
 
-    <link rel="stylesheet" href="https://themes.gohugo.io/theme/hugo-devresume-theme/assets/css/devresume.min.6f0ea840b7901041dc68a0cce42eaa44dd7dc5f0f0378dd4c252efc8de550894.css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900">
+
+
+	<link rel="stylesheet" href="https://themes.gohugo.io/theme/hugo-devresume-theme/assets/css/devresume.min.6f0ea840b7901041dc68a0cce42eaa44dd7dc5f0f0378dd4c252efc8de550894.css">
 
 
 </head>
 
 <body>
 
-    <div id="dvContainer" class="class="main-wrapper">
+	<div class="class=" main-wrapper">
 
-        <div class="container px-3 px-lg-5">
+		<div class="container px-3 px-lg-5">
 
-            <article class="resume-wrapper mx-auto theme-bg-light p-5 mb-5 my-5 shadow-lg">
+			<article class="resume-wrapper mx-auto theme-bg-light p-5 mb-5 my-5 shadow-lg">
 
 
-                <div class="resume-header">
+				<div class="resume-header">
 
-                    <div class="row align-items-center">
+					<div class="row align-items-center">
 
 
 
-                        <div class="resume-title col-12 col-md-6 col-lg-8 col-xl-9">
-                            <h2 class="resume-name mb-0 text-uppercase">Malnati, Marcos Miguel</h2>
-                            <div class="resume-tagline mb-3 mb-md-0">System administrator</div>
-                        </div>
+						<div class="resume-title col-12 col-md-6 col-lg-8 col-xl-9">
+							<h2 class="resume-name mb-0 text-uppercase">Malnati, Marcos Miguel</h2>
+							<div class="resume-tagline mb-3 mb-md-0">System administrator</div>
+						</div>
 
 
 
 
 
-                        <div class="resume-contact col-12 col-md-6 col-lg-4 col-xl-3">
-                            <ul class="list-unstyled mb-0">
+						<div class="resume-contact col-12 col-md-6 col-lg-4 col-xl-3">
+							<ul class="list-unstyled mb-0">
 
-                                <li class="mb-2"><i class="fas fa-phone-square fa-fw fa-lg mr-2"></i><a class="resume-link" href="tel:+54 11 5886 6751">+54 11 5886 6751</a></li>
+								<li class="mb-2"><i class="fas fa-phone-square fa-fw fa-lg mr-2"></i><a class="resume-link" href="tel:+54 11 5886 6751">+54 11 5886 6751</a></li>
 
-                                <li class="mb-2"><i class="fas fa-envelope-square fa-fw fa-lg mr-2"></i><a class="resume-link" href="mailto:marcos@soporte.net.ar">marcos@soporte.net.ar</a></li>
+								<li class="mb-2"><i class="fas fa-envelope-square fa-fw fa-lg mr-2"></i><a class="resume-link" href="mailto:marcos@soporte.net.ar">marcos@soporte.net.ar</a></li>
 
-                                <li class="mb-2"><i class="fas fa-globe fa-fw fa-lg mr-2"></i><a class="resume-link" href="https://soporte.net.ar" target="_blank">soporte.net.ar</a></li>
+								<li class="mb-2"><i class="fas fa-globe fa-fw fa-lg mr-2"></i><a class="resume-link" href="https://soporte.net.ar" target="_blank">soporte.net.ar</a></li>
 
-                                <li class="mb-0"><i class="fas fa-map-marker-alt fa-fw fa-lg mr-2"></i>Argentina, Buenos Aires, Ciudad Autónoma de Buenos Aires, Almagro</li>
-                            </ul>
-                        </div>
+								<li class="mb-0"><i class="fas fa-map-marker-alt fa-fw fa-lg mr-2"></i>Argentina, Buenos Aires, Ciudad Autónoma de Buenos Aires, Almagro</li>
+							</ul>
+						</div>
 
 
 
-                    </div>
+					</div>
 
-                </div>
+				</div>
 
 
-                <hr>
+				<hr>
 
 
 
-                <div class="resume-intro py-3">
+				<div class="resume-intro py-3">
 
-                    <div class="media flex-column flex-md-row align-items-center">
+					<div class="media flex-column flex-md-row align-items-center">
 
 
-                        <img class="resume-profile-image mb-3 mb-md-0 mr-md-5 ml-md-0 rounded mx-auto" src="https://raw.githubusercontent.com/mmalnati/mmalnati.github.io/master/yo2.jpg" alt="image">
+						<img class="resume-profile-image mb-3 mb-md-0 mr-md-5 ml-md-0 rounded mx-auto" src="https://raw.githubusercontent.com/mmalnati/mmalnati.github.io/master/yo2.jpg" alt="image">
 
 
-                        <div class="media-body text-left">
-                            <p class="mb-0">Summarise your career here. Donec quam felis, ultricies nec, pellentesque eu. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.  Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh.</p>
-                        </div>
+						<div class="media-body text-left">
+							<p class="mb-0">Summarise your career here. Donec quam felis, ultricies nec, pellentesque eu. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et
+								magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante.
+								Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh.</p>
+						</div>
 
-                    </div>
+					</div>
 
-                </div>
+				</div>
 
 
 
-                <hr>
+				<hr>
 
-                <div class="resume-body">
+				<div class="resume-body">
 
-                    <div class="row">
+					<div class="row">
 
-                        <div class="resume-main col-12 col-lg-8 col-xl-9 pr-0 pr-lg-5">
+						<div class="resume-main col-12 col-lg-8 col-xl-9 pr-0 pr-lg-5">
 
 
 
-                            <section class="work-section py-3">
+							<section class="work-section py-3">
 
-                                <h3 class="text-uppercase resume-section-heading mb-4">Experincia laboral</h3>
+								<h3 class="text-uppercase resume-section-heading mb-4">Experincia laboral</h3>
 
-                                <div class="item mb-3">
-                                    <div class="item-heading row align-items-center mb-2">
-                                        <h4 class="item-title col-12 col-md-6 col-lg-6 mb-2 mb-md-0">Responsable de seguridad informática y sysadmin</h4>
-                                        <div class="item-meta col-12 col-md-6 col-lg-6 text-muted text-left text-md-right">Ministerio de Modernización, Dirección de procesamiento de datos | 06/18 – actual</div>
-                                    </div>
-                                    <div class="item-content">
-                                        <p>
-																					Mis tareas consisten en administrar las siguientes tecnologías:
-																					<ul>
-																					  <li>Administración de servidores basado en Red Hat 7</li>
-																					  <li>Análisis de vulnerabilidades y pentesting</li>
-																					  <li>Alta y renovación de certificados para sitios web</li>
-																					  <li>Validación de los sistemas a través de certificado cliente (mediante haproxy)</li>
-																					  <li>Creación de ambiente de pentest, stress test y análisis de vulnerabilidades</li>
-																					  <li>Administración de equipos BIG-IP F5 (principalmente LTM, pero también manejo DNS)</li>
-																					  <li>Manejo de ambientes en docker, y uso de portainer</li>
-																					</ul>
-																				</p>
+								<div class="item mb-3">
+									<div class="item-heading row align-items-center mb-2">
+										<h4 class="item-title col-12 col-md-6 col-lg-6 mb-2 mb-md-0">Responsable de seguridad informática y sysadmin</h4>
+										<div class="item-meta col-12 col-md-6 col-lg-6 text-muted text-left text-md-right">Ministerio de Modernización, Dirección de procesamiento de datos | 06/18 – actual</div>
+									</div>
+									<div class="item-content">
+										<p>
+											Mis tareas consisten en administrar las siguientes tecnologías:
+											<ul>
+												<li>Administración de servidores basado en Red Hat 7</li>
+												<li>Análisis de vulnerabilidades y pentesting</li>
+												<li>Alta y renovación de certificados para sitios web</li>
+												<li>Validación de los sistemas a través de certificado cliente (mediante haproxy)</li>
+												<li>Creación de ambiente de pentest, stress test y análisis de vulnerabilidades</li>
+												<li>Administración de equipos BIG-IP F5 (principalmente LTM, pero también manejo DNS)</li>
+												<li>Manejo de ambientes en docker, y uso de portainer</li>
+											</ul>
+										</p>
 
-                                        </ul>
-                                    </div>
-                                </div>
+										</ul>
+									</div>
+								</div>
+
+								<div class="item mb-3">
+									<div class="item-heading row align-items-center mb-2">
+										<h4 class="item-title col-12 col-md-6 col-lg-6 mb-2 mb-md-0">Administrador de infraestructura</h4>
+										<div class="item-meta col-12 col-md-6 col-lg-6 text-muted text-left text-md-right">Subsecretaría de protección de infraestructuras críticas de información y ciberseguridad | 06/16 – 06/18</div>
+									</div>
+									<div class="item-content">
+										<p>
+											Encargado de administrar los servidores del área, los servicios y la seguridad. También implementar servicios para la red interna. Hardening de servidores, scripting básico para automatización de tareas en cron, prueba de
+											herramientas de monitoreo de servicios. Entre las tecnologías que manejé, están las siguientes:
+											<ul>
+												<li>Windows (2008 R2 y 2012)</li>
+												<li>Linux (Debian 8)</li>
+												<li>DNS (Bind)</li>
+												<li>HAproxy</li>
+												<li>Teampass</li>
+												<li>VirtualBox</li>
+												<li>Apache Server</li>
+												<li>Nginx</li>
+												<li>GLPI</li>
+												<li>FOG</li>
+												<li>Firewalls (Shorewall, pFsense)</li>
+												<li>Squid proxy</li>
+												<li>CUPS</li>
+												<li>VMware vSphere 6</li>
+												<li>Administración de servidor SAMBA</li>
+												<li>Administración básica de switches Cisco Catalyst 2960 Plus Series</li>
+												<li>Manejo de ambientes en docker, y uso de portainer</li>
+												<li>Zabbix</li>
+												<li>Pandora FMS</li>
+												<li>Nagios</li>
+											</ul>
+											<h5>Ciberseguridad:</h5>
+
+											<p>Además de administrar los servidores, estoy en la parte de GAP (gestión de análisis preventivo) realizando escaneo de vulnerabilidades a sitios web, pentesting, stress test a servidores web, base de datos, informes con
+												recomendaciones para mejorar la estabilidad y seguridad de los mismos y análisis preventivos. Entre las herramientas y distribuciones que uso, se encuentran las siguientes:</p>
+											<ul>
+												<li>Kali Linux</li>
+												<li>Parrotsec</li>
+												<li>Acunetix</li>
+												<li>Apache Jmeter</li>
+												<li>Wireshark</li>
+												<li>tcpdump</li>
+												<li>Netsparker</li>
+											</ul>
+										</p>
+										<ul class="resume-list">
+
+										</ul>
+									</div>
+								</div>
+
+								<div class="item mb-3">
+									<div class="item-heading row align-items-center mb-2">
+										<h4 class="item-title col-12 col-md-6 col-lg-6 mb-2 mb-md-0">Administrador de infraestructura</h4>
+										<div class="item-meta col-12 col-md-6 col-lg-6 text-muted text-left text-md-right">Subsecretaría de protección de infraestructuras críticas de información y ciberseguridad | 08/15 – 12/15</div>
+									</div>
+									<div class="item-content">
+										<p>
+											Luego de trabajar en el CERT como operador, pasé al área de infraestructura, y me desempeñé en la administración de los servidores y la red interna, así como también aportando en el GAP (gestión de análisis preventivo).
+											<ul>
+												<li>Operador del CERT, carga de incidentes y reporte de vulnerabilidades a entidades privadas y públicas.</li>
+												<li>Responsable de Soporte técnico / Infraestructura</li>
+												<li>Encargado del mantenimiento de las estaciones de trabajo del departamento</li>
+												<li>Troubleshooting básico sobre problemas de uso cotidiano</li>
+												<li>Instalación de programas básicos (Windows 10, Office 2013)</li>
+											</ul>
+										</p>
+
+										</ul>
+									</div>
+								</div>
+
+								<div class="item mb-3">
+									<div class="item-heading row align-items-center mb-2">
+										<h4 class="item-title col-12 col-md-6 col-lg-6 mb-2 mb-md-0">Soporte técnico</h4>
+										<div class="item-meta col-12 col-md-6 col-lg-6 text-muted text-left text-md-right">Universidad Torcuato Di Tella | 06/12 – 07/15</div>
+									</div>
+									<div class="item-content">
+										<p>montes, nascetur ridiculus mus.</p>
+										<ul>
+											<li>Manejo del servidor de impresiones bajo plataforma Windows Server 2008</li>
+											<li>Pcounter (contador de impresiones)</li>
+											<li>Consola de AD (creación de usuarios, reseteo de contraseña, permisos sobre carpetas)</li>
+											<li>Consola de administración de Google, creación de casillas, listas de distribución, calendarios, Google Drive</li>
+											<li>Instalación de programas básicos (Windows 10, Office 2013)</li>
+											<li>Atención a usuarios, tanto telefónicamente como on site</li>
+											<li>Administración de impresoras</li>
+										</ul>
+										<ul class="resume-list">
+
+										</ul>
+									</div>
+								</div>
+
+								<div class="item mb-3">
+									<div class="item-heading row align-items-center mb-2">
+										<h4 class="item-title col-12 col-md-6 col-lg-6 mb-2 mb-md-0">Soporte técnico</h4>
+										<div class="item-meta col-12 col-md-6 col-lg-6 text-muted text-left text-md-right">Exolgan S. A | 05/09 – 03/12</div>
+									</div>
+									<div class="item-content">
+										<p>Role description goes here ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus.</p>
+										<ul>
+											<li>Manejo básico de consola Linux</li>
+											<li>Armado, reparación y mantenimiento de PC a medida</li>
+											<li>Redes de datos y telefonía, reparación</li>
+											<li>Configuración y mantenimiento impresoras</li>
+											<li>Administración de Active Directory de Windows Server 2003 / 2008 R2</li>
+											<li>Manejo de consola de Antivirus McAfee Orchestrator, manejo de Consola Trend Micro Appliance</li>
+											<li>Instalación y configuración de ACU Manager y Digicard Sistemas, instalación y configuración de biométricos NEC AcuSmart</li>
+											<li>Instalación y mantenimientos de sistema CCTV Bosch, instalación de Boch Vidos Lite Client, Achive Player</li>
+											<li>Manejo de Herramientas Microsoft Office, StarOffice y OpenOffice</li>
+											<li>Configuración de Psion Teklogix 7535G2, 8525G2 y WorkAbout PRO</li>
+											<li>Sistema informático MARIA AFIP, MPX System, Aranda Service Desk</li>
+										</ul>
+										<ul class="resume-list">
+
+										</ul>
+									</div>
+								</div>
+
+
+								<div class="item mb-3">
+									<div class="item-heading row align-items-center mb-2">
+										<h4 class="item-title col-12 col-md-6 col-lg-6 mb-2 mb-md-0">Soporte técnico telefónico a productos Linksys</h4>
+										<div class="item-meta col-12 col-md-6 col-lg-6 text-muted text-left text-md-right">Next S. A | 06/07 – 12/09</div>
+									</div>
+									<div class="item-content">
+										<p>
+											<p>Luego de trabajar en el CERT como operador, pasé al área de infraestructura, y me desempeñé en la administración de los servidores y la red interna, así como también aportando en el GAP (gestión de análisis preventivo).</p>
+											<ul>
+												<li>Cableado de redes</li>
+												<li>Configuración de Routers Linksys</li>
+												<li>Instalación de adaptadores cableados y wireless para PCs</li>
+												<li>Administración remota, Access Restrictions, Print Servers</li>
+												<li>Access Point, Cámaras IP</li>
+												<li>Bridge inalámbricos, repetidores Wi-Fi, VPN (IPSec), VoIP (SIP)</li>
+											</ul>
+										</p>
+
+										</ul>
+									</div>
+								</div>
+
+							</section>
+
+
+
+
+
+							<section class="project-section py-3">
+
+								<h3 class="text-uppercase resume-section-heading mb-4">Proyectos</h3>
+
+
+								<div class="item mb-3">
+									<div class="item-heading row align-items-center mb-2">
+										<h4 class="item-title col-12 col-md-6 col-lg-8 mb-2 mb-md-0">Soluciones informáticas</h4>
+										<div class="item-meta col-12 col-md-6 col-lg-4 text-muted text-left text-md-right">Soporte técnico a pymes y particulares</div>
+									</div>
+									<div class="item-content">
+										<p>Creé ésta empresa para brindar servicios a particulares y pymes. Éstos van desde arreglos de computadoras de escritorio, hasta hacer una evaluación de vulnerabilidades, escaneos de vulnerabilidades, y brindar seguimiento en el
+											proceso de mejora contínua.</p>
+									</div>
+								</div>
+
+
+							</section>
+
+
+
+						</div>
+
+
+						<aside class="resume-aside col-12 col-lg-4 col-xl-3 px-lg-4 pb-lg-4">
+
+
 
-                                <div class="item mb-3">
-                                    <div class="item-heading row align-items-center mb-2">
-                                        <h4 class="item-title col-12 col-md-6 col-lg-6 mb-2 mb-md-0">Administrador de infraestructura</h4>
-                                        <div class="item-meta col-12 col-md-6 col-lg-6 text-muted text-left text-md-right">Subsecretaría de protección de infraestructuras críticas de información y ciberseguridad | 06/16 – 06/18</div>
-                                    </div>
-                                    <div class="item-content">
-																			<p>
-																				Encargado de administrar los servidores del área, los servicios y la seguridad. También implementar servicios para la red interna. Hardening de servidores, scripting básico para automatización de tareas en cron, prueba de herramientas de monitoreo de servicios. Entre las tecnologías que manejé, están las siguientes:
-																				<ul>
-																					<li>Windows (2008 R2 y 2012)</li>
-																					<li>Linux (Debian 8)</li>
-																					<li>DNS (Bind)</li>
-																					<li>HAproxy</li>
-																					<li>Teampass</li>
-																					<li>VirtualBox</li>
-																					<li>Apache Server</li>
-																					<li>Nginx</li>
-																					<li>GLPI</li>
-																					<li>FOG</li>
-																					<li>Firewalls (Shorewall, pFsense)</li>
-																					<li>Squid proxy</li>
-																					<li>CUPS</li>
-																					<li>VMware vSphere 6</li>
-																					<li>Administración de servidor SAMBA</li>
-																					<li>Administración básica de switches Cisco Catalyst 2960 Plus Series</li>
-																					<li>Manejo de ambientes en docker, y uso de portainer</li>
-																					<li>Zabbix</li>
-																					<li>Pandora FMS</li>
-																					<li>Nagios</li>
-																				</ul>
-																				<h5>Ciberseguridad:</h5>
-
-																				<p>Además de administrar los servidores, estoy en la parte de GAP (gestión de análisis preventivo) realizando escaneo de vulnerabilidades a sitios web, pentesting, stress test a servidores web, base de datos, informes con recomendaciones para mejorar la estabilidad y seguridad de los mismos y análisis preventivos. Entre las herramientas y distribuciones que uso, se encuentran las siguientes:</p>
-																				<ul>
-																					<li>Kali Linux</li>
-																					<li>Parrotsec</li>
-																					<li>Acunetix</li>
-																					<li>Apache Jmeter</li>
-																					<li>Wireshark</li>
-																					<li>tcpdump</li>
-																					<li>Netsparker</li>
-																				</ul>
-																			</p>
-                                        <ul class="resume-list">
-
-                                        </ul>
-                                    </div>
-                                </div>
-
-                                <div class="item mb-3">
-                                    <div class="item-heading row align-items-center mb-2">
-                                        <h4 class="item-title col-12 col-md-6 col-lg-6 mb-2 mb-md-0">Administrador de infraestructura</h4>
-                                        <div class="item-meta col-12 col-md-6 col-lg-6 text-muted text-left text-md-right">Subsecretaría de protección de infraestructuras críticas de información y ciberseguridad | 08/15 – 12/15</div>
-                                    </div>
-																		<div class="item-content">
-                                        <p>
-																					Luego de trabajar en el CERT como operador, pasé al área de infraestructura, y me desempeñé en la administración de los servidores y la red interna, así como también aportando en el GAP (gestión de análisis preventivo).
-																					<ul>
-																						<li>Operador del CERT, carga de incidentes y reporte de vulnerabilidades a entidades privadas y públicas.</li>
-																						<li>Responsable de Soporte técnico / Infraestructura</li>
-																						<li>Encargado del mantenimiento de las estaciones de trabajo del departamento</li>
-																						<li>Troubleshooting básico sobre problemas de uso cotidiano</li>
-																						<li>Instalación de programas básicos (Windows 10, Office 2013)</li>
-																					</ul>
-																				</p>
-
-                                        </ul>
-                                    </div>
-                                </div>
-
-                                <div class="item mb-3">
-                                    <div class="item-heading row align-items-center mb-2">
-                                        <h4 class="item-title col-12 col-md-6 col-lg-6 mb-2 mb-md-0">Soporte técnico</h4>
-                                        <div class="item-meta col-12 col-md-6 col-lg-6 text-muted text-left text-md-right">Universidad Torcuato Di Tella | 06/12 – 07/15</div>
-                                    </div>
-                                    <div class="item-content">
-                                        <p>montes, nascetur ridiculus mus.</p>
-																				<ul>
-																					<li>Manejo del servidor de impresiones bajo plataforma Windows Server 2008</li>
-																					<li>Pcounter (contador de impresiones)</li>
-																					<li>Consola de AD (creación de usuarios, reseteo de contraseña, permisos sobre carpetas)</li>
-																					<li>Consola de administración de Google, creación de casillas, listas de distribución, calendarios, Google Drive</li>
-																					<li>Instalación de programas básicos (Windows 10, Office 2013)</li>
-																					<li>Atención a usuarios, tanto telefónicamente como on site</li>
-																					<li>Administración de impresoras</li>
-																				</ul>
-                                        <ul class="resume-list">
-
-                                        </ul>
-                                    </div>
-                                </div>
-
-                                <div class="item mb-3">
-                                    <div class="item-heading row align-items-center mb-2">
-                                        <h4 class="item-title col-12 col-md-6 col-lg-6 mb-2 mb-md-0">Soporte técnico</h4>
-                                        <div class="item-meta col-12 col-md-6 col-lg-6 text-muted text-left text-md-right">Exolgan S. A | 05/09 – 03/12</div>
-                                    </div>
-                                    <div class="item-content">
-                                        <p>Role description goes here ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus.</p>
-																			<ul>
-																				<li>Manejo básico de consola Linux</li>
-																				<li>Armado, reparación y mantenimiento de PC a medida</li>
-																				<li>Redes de datos y telefonía, reparación</li>
-																				<li>Configuración y mantenimiento impresoras</li>
-																				<li>Administración de Active Directory de Windows Server 2003 / 2008 R2</li>
-																				<li>Manejo de consola de Antivirus McAfee Orchestrator, manejo de Consola Trend Micro Appliance</li>
-																				<li>Instalación y configuración de ACU Manager y Digicard Sistemas, instalación y configuración de biométricos NEC AcuSmart</li>
-																				<li>Instalación y mantenimientos de sistema CCTV Bosch, instalación de Boch Vidos Lite Client, Achive Player</li>
-																				<li>Manejo de Herramientas Microsoft Office, StarOffice y OpenOffice</li>
-																				<li>Configuración de Psion Teklogix 7535G2, 8525G2 y WorkAbout PRO</li>
-																				<li>Sistema informático MARIA AFIP, MPX System, Aranda Service Desk</li>
-																			</ul>
-                                        <ul class="resume-list">
-
-                                        </ul>
-                                    </div>
-                                </div>
-
-
-																<div class="item mb-3">
-                                    <div class="item-heading row align-items-center mb-2">
-                                        <h4 class="item-title col-12 col-md-6 col-lg-6 mb-2 mb-md-0">Soporte técnico telefónico a productos Linksys</h4>
-                                        <div class="item-meta col-12 col-md-6 col-lg-6 text-muted text-left text-md-right">Next S. A | 06/07 – 12/09</div>
-                                    </div>
-																		<div class="item-content">
-                                        <p>
-																					<p>Luego de trabajar en el CERT como operador, pasé al área de infraestructura, y me desempeñé en la administración de los servidores y la red interna, así como también aportando en el GAP (gestión de análisis preventivo).</p>
-																					<ul>
-																						<li>Cableado de redes</li>
-																						<li>Configuración de Routers Linksys</li>
-																						<li>Instalación de adaptadores cableados y wireless para PCs</li>
-																						<li>Administración remota, Access Restrictions, Print Servers</li>
-																						<li>Access Point, Cámaras IP</li>
-																						<li>Bridge inalámbricos, repetidores Wi-Fi, VPN (IPSec), VoIP (SIP)</li>
-																					</ul>
-																				</p>
-
-                                        </ul>
-                                    </div>
-                                </div>
-
-                            </section>
-
-
-
-
-
-                            <section class="project-section py-3">
-
-                                <h3 class="text-uppercase resume-section-heading mb-4">Proyectos</h3>
-
-
-                                <div class="item mb-3">
-                                    <div class="item-heading row align-items-center mb-2">
-                                        <h4 class="item-title col-12 col-md-6 col-lg-8 mb-2 mb-md-0">Soluciones informáticas</h4>
-                                        <div class="item-meta col-12 col-md-6 col-lg-4 text-muted text-left text-md-right">Soporte técnico a pymes y particulares</div>
-                                    </div>
-                                    <div class="item-content">
-                                        <p>Creé ésta empresa para brindar servicios a particulares y pymes. Éstos van desde arreglos de computadoras de escritorio, hasta hacer una evaluación de vulnerabilidades, escaneos de vulnerabilidades, y brindar seguimiento en el proceso de mejora contínua.</p>
-                                    </div>
-                                </div>
-
-
-                            </section>
-
-
-
-                        </div>
-
 
-                        <aside class="resume-aside col-12 col-lg-4 col-xl-3 px-lg-4 pb-lg-4">
+							<section class="education-section py-3">
 
+								<h3 class="text-uppercase resume-section-heading mb-4">Estudios</h3>
 
+								<ul class="list-unstyled resume-education-list">
 
+									<li class="mb-3">
+										<div class="resume-degree font-weight-bold">(RHCSA) (EX200)</div>
+										<div class="resume-degree-org text-muted">Actualmente realizando el curso de Red Hat System Administrator, para Red Hat Certified System Administrator</div>
+									</li>
 
-                            <section class="education-section py-3">
+									<li class="mb-3">
+										<div class="resume-degree font-weight-bold">Teoría y práctica de la investigación del cibercrimen</div>
+										<div class="resume-degree-org text-muted">organizado por la Dirección General de Capacitación y Escuela del Ministerio Público Fiscal de la Nación durante mayo de 2017</div>
+									</li>
+									<li class="mb-3">
+										<div class="resume-degree font-weight-bold">Facultad de Ingeniería del Ejército – Grl Div Manuel N. Savio</div>
+										<div class="resume-degree-org text-muted">Formación en Ciberdefensa, dictado por el Dr. Alejandro Corletti (04/09/2017 a 08/09/2017)</div>
+										<div class="resume-degree-time text-muted">2007 - 2010</div>
+									</li>
+									<li class="mb-3">
+										<div class="resume-degree font-weight-bold">National Nuclear Security Administration</div>
+										<div class="resume-degree-org text-muted">Gestión de Riesgos Cibernéticos en la Seguridad Nuclear Internacional dictado por personal de la NNSA (19/03/2018 a 24/03/2018)</div>
+									</li>
+									<li class="mb-3">
+										<div class="resume-degree font-weight-bold">INAP</div>
+										<div class="resume-degree-org text-muted">Administración GNU/Linux I y II (03/2018 a 06/2018)</div>
+									</li>
+									<li class="mb-3">
+										<div class="resume-degree font-weight-bold">Escuela educación técnica N°2</div>
+										<div class="resume-degree-org text-muted">Técnico electrónico, Producción de bienes y servicios (2002)</div>
+									</li>
 
-                                <h3 class="text-uppercase resume-section-heading mb-4">Estudios</h3>
+								</ul>
 
-                                <ul class="list-unstyled resume-education-list">
+							</section>
 
-                                    <li class="mb-3">
-                                        <div class="resume-degree font-weight-bold">(RHCSA) (EX200)</div>
-                                        <div class="resume-degree-org text-muted">Actualmente realizando el curso de Red Hat System Administrator, para Red Hat Certified System Administrator</div>
-                                    </li>
 
-																		<li class="mb-3">
-                                        <div class="resume-degree font-weight-bold">Teoría y práctica de la investigación del cibercrimen</div>
-                                        <div class="resume-degree-org text-muted">organizado por la Dirección General de Capacitación y Escuela del Ministerio Público Fiscal de la Nación durante mayo de 2017</div>
-                                    </li>
-																		<li class="mb-3">
-																				<div class="resume-degree font-weight-bold">Facultad de Ingeniería del Ejército – Grl Div Manuel N. Savio</div>
-																				<div class="resume-degree-org text-muted">Formación en Ciberdefensa, dictado por el Dr. Alejandro Corletti (04/09/2017 a 08/09/2017)</div>
-																				<div class="resume-degree-time text-muted">2007 - 2010</div>
-																		</li>
-																		<li class="mb-3">
-																				<div class="resume-degree font-weight-bold">National Nuclear Security Administration</div>
-																				<div class="resume-degree-org text-muted">Gestión de Riesgos Cibernéticos en la Seguridad Nuclear Internacional dictado por personal de la NNSA (19/03/2018 a 24/03/2018)</div>
-																		</li>
-																		<li class="mb-3">
-																				<div class="resume-degree font-weight-bold">INAP</div>
-																				<div class="resume-degree-org text-muted">Administración GNU/Linux I y II (03/2018 a 06/2018)</div>
-																		</li>
-																		<li class="mb-3">
-																				<div class="resume-degree font-weight-bold">Escuela educación técnica N°2</div>
-																				<div class="resume-degree-org text-muted">Técnico electrónico, Producción de bienes y servicios (2002)</div>
-																		</li>
+							<section class="skills-section py-3">
 
-                                </ul>
+								<h3 class="text-uppercase resume-section-heading mb-4">Habilidades</h3>
 
-                            </section>
 
+								<div class="item">
+									<h4 class="item-title">Técnicas</h4>
+									<ul class="list-unstyled resume-skills-list">
 
-                            <section class="skills-section py-3">
+										<li class="mb-2">GNU/Linux</li>
 
-                                <h3 class="text-uppercase resume-section-heading mb-4">Habilidades</h3>
+										<li class="mb-2">SAMBA</li>
 
+										<li class="mb-2">Apache Server</li>
 
-                                <div class="item">
-                                    <h4 class="item-title">Técnicas</h4>
-                                    <ul class="list-unstyled resume-skills-list">
+										<li class="mb-2">Apache Jmeter</li>
 
-                                        <li class="mb-2">GNU/Linux</li>
+										<li class="mb-2">Scripting bash</li>
 
-																				<li class="mb-2">SAMBA</li>
+										<li class="mb-2">HAproxy</li>
 
-                                        <li class="mb-2">Apache Server</li>
+										<li class="mb-2">tcpdump</li>
 
-                                        <li class="mb-2">Apache Jmeter</li>
+										<li class="mb-2">Kali Linux</li>
 
-                                        <li class="mb-2">Scripting bash</li>
+										<li class="mb-2">Parrotsec</li>
 
-                                        <li class="mb-2">HAproxy</li>
+										<li class="mb-2">Acunetix</li>
 
-                                        <li class="mb-2">tcpdump</li>
+										<li class="mb-2">Docker</li>
 
-																				<li class="mb-2">Kali Linux</li>
+									</ul>
+								</div>
 
-																				<li class="mb-2">Parrotsec</li>
+								<div class="item">
+									<h4 class="item-title">Profesional</h4>
+									<ul class="list-unstyled resume-skills-list">
 
-																				<li class="mb-2">Acunetix</li>
+										<li class="mb-2">Trabajo en equipo</li>
 
-																				<li class="mb-2">Docker</li>
+										<li class="mb-2">Proactivo</li>
 
-                                    </ul>
-                                </div>
+										<li class="mb-2">Capacidad de comunicación</li>
 
-                                <div class="item">
-                                    <h4 class="item-title">Profesional</h4>
-                                    <ul class="list-unstyled resume-skills-list">
+										<li class="mb-2">Capacidad de Análisis e investigación</li>
 
-                                        <li class="mb-2">Trabajo en equipo</li>
+									</ul>
+								</div>
 
-                                        <li class="mb-2">Proactivo</li>
 
-                                        <li class="mb-2">Capacidad de comunicación</li>
+							</section>
 
-                                        <li class="mb-2">Capacidad de Análisis e investigación</li>
 
-                                    </ul>
-                                </div>
 
 
-                            </section>
 
+							<section class="skills-section py-3">
 
+								<h3 class="text-uppercase resume-section-heading mb-4">Idiomas</h3>
 
+								<ul class="list-unstyled resume-lang-list">
 
+									<li class="mb-2">Español <span class="text-muted">(Nativo)</span></li>
 
-                            <section class="skills-section py-3">
+									<li class="mb-2">Inglés <span class="text-muted">(intermedio)</span></li>
 
-                                <h3 class="text-uppercase resume-section-heading mb-4">Idiomas</h3>
+									<li class="mb-2">Italiano <span class="text-muted">(en curso)</span></li>
 
-                                <ul class="list-unstyled resume-lang-list">
 
-                                    <li class="mb-2">Español <span class="text-muted">(Nativo)</span></li>
+								</ul>
 
-                                    <li class="mb-2">Inglés <span class="text-muted">(intermedio)</span></li>
+							</section>
 
-																		<li class="mb-2">Italiano <span class="text-muted">(en curso)</span></li>
+						</aside>
 
 
-                                </ul>
+					</div>
 
-                            </section>
+				</div>
 
-                        </aside>
+				<hr>
 
 
-                    </div>
 
-                </div>
+				<div class="resume-footer text-center">
 
-                <hr>
+					<ul class="resume-social-list list-inline mx-auto mb-0 d-inline-block text-muted">
 
+						<li class="list-inline-item mb-lg-0 mr-3">
+							<a class="resume-link" href="//github.com/mmalnati" target="_blank">
+								<i class="fab fa-github-square fa-2x mr-2" data-fa-transform="down-4"></i>
+								<span class="d-none d-lg-inline-block text-muted">mmalnati</span>
+							</a>
+						</li>
 
+						<li class="list-inline-item mb-lg-0 mr-3">
+							<a class="resume-link" href="//linkedin.com/in/mmalnati" target="_blank">
+								<i class="fab fa-linkedin fa-2x mr-2" data-fa-transform="down-4"></i>
+								<span class="d-none d-lg-inline-block text-muted">mmalnati</span>
+							</a>
+						</li>
 
-                <div class="resume-footer text-center">
+					</ul>
 
-                    <ul class="resume-social-list list-inline mx-auto mb-0 d-inline-block text-muted">
+				</div>
 
-                        <li class="list-inline-item mb-lg-0 mr-3">
-                            <a class="resume-link" href="//github.com/mmalnati" target="_blank">
-                                <i class="fab fa-github-square fa-2x mr-2" data-fa-transform="down-4"></i>
-                                <span class="d-none d-lg-inline-block text-muted">mmalnati</span>
-                            </a>
-                        </li>
 
-                        <li class="list-inline-item mb-lg-0 mr-3">
-                            <a class="resume-link" href="//linkedin.com/in/mmalnati" target="_blank">
-                                <i class="fab fa-linkedin fa-2x mr-2" data-fa-transform="down-4"></i>
-                                <span class="d-none d-lg-inline-block text-muted">mmalnati</span>
-                            </a>
-                        </li>
 
-                    </ul>
+			</article>
 
-                </div>
+		</div>
 
 
+		<footer class="footer text-center py-4">
 
-            </article>
 
-        </div>
+		</footer>
 
 
-        <footer class="footer text-center py-4">
+	</div>
 
-					<input type="button" value="Print Div Contents" id="btnPrint" />
 
-        </footer>
 
-
-    </div>
-
-
-
-    <script defer src="https://use.fontawesome.com/releases/v5.8.1/js/all.js" integrity="sha384-g5uSoOSBd7KkhAMlnQILrecXvzst9TdC09/VM+pjDTCM+1il8RHz5fKANTFFb+gQ" crossorigin="anonymous"></script>
+	<script defer src="https://use.fontawesome.com/releases/v5.8.1/js/all.js" integrity="sha384-g5uSoOSBd7KkhAMlnQILrecXvzst9TdC09/VM+pjDTCM+1il8RHz5fKANTFFb+gQ" crossorigin="anonymous"></script>
 
 
 
