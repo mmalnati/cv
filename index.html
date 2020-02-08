@@ -4,55 +4,24 @@
 
 <head>
 
-	<script src="https://raw.githubusercontent.com/mmalnati/mmalnati.github.io/master/js/jquery-1.12.4.js"></script>
-	<script src="https://raw.githubusercontent.com/mmalnati/mmalnati.github.io/master/js/jspdf.min.js"></script>
-	<script src="https://raw.githubusercontent.com/mmalnati/mmalnati.github.io/master/js/html2canvas.js"></script>
 
 
-	<script>
-
-	function getPDF(){
-		$("#downloadbtn").hide();
-		$("#genmsg").show();
-		var HTML_Width = $(".canvas_div_pdf").width();
-		var HTML_Height = $(".canvas_div_pdf").height();
-		var top_left_margin = 15;
-		var PDF_Width = HTML_Width+(top_left_margin*2);
-		var PDF_Height = (PDF_Width*1.2)+(top_left_margin*2);
-		var canvas_image_width = HTML_Width;
-		var canvas_image_height = HTML_Height;
-
-		var totalPDFPages = Math.ceil(HTML_Height/PDF_Height)-1;
-
-
-		html2canvas($(".canvas_div_pdf")[0],{allowTaint:true}).then(function(canvas) {
-			canvas.getContext('2d');
-
-			console.log(canvas.height+"  "+canvas.width);
-
-
-			var imgData = canvas.toDataURL("image/jpeg", 1.0);
-			var pdf = new jsPDF('p', 'pt',  [PDF_Width, PDF_Height]);
-		    pdf.addImage(imgData, 'JPG', top_left_margin, top_left_margin,canvas_image_width,canvas_image_height);
-
-
-			for (var i = 1; i <= totalPDFPages; i++) {
-				pdf.addPage(PDF_Width, PDF_Height);
-				pdf.addImage(imgData, 'JPG', top_left_margin, -(PDF_Height*i)+(top_left_margin*4),canvas_image_width,canvas_image_height);
-			}
-
-		    pdf.save("mmalnati_cv-ES.pdf");
-
-			setTimeout(function(){
-				$("#downloadbtn").show();
-				$("#genmsg").hide();
-			}, 0);
-
-        });
-	};
-
-
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+	<script type="text/javascript">
+			$("#btnPrint").live("click", function () {
+					var divContents = $("#dvContainer").html();
+					var printWindow = window.open('', '', 'height=400,width=800');
+					printWindow.document.write('<html><head><title>DIV Contents</title>');
+					printWindow.document.write('</head><body >');
+					printWindow.document.write(divContents);
+					printWindow.document.write('</body></html>');
+					printWindow.document.close();
+					printWindow.print();
+			});
 	</script>
+
+
+
 
 
 
@@ -93,7 +62,7 @@
 
 <body>
 
-    <div class="canvas_div_pdf" class="main-wrapper">
+    <div id="dvContainer" class="class="main-wrapper">
 
         <div class="container px-3 px-lg-5">
 
@@ -522,8 +491,7 @@
 
         <footer class="footer text-center py-4">
 
-					<button onclick="getPDF()" id="downloadbtn"><b>Click to Download HTML as PDF</b></button>
-								<span id="genmsg" style="display:none;">Generating ...</span>
+					<input type="button" value="Print Div Contents" id="btnPrint" />
 
         </footer>
 
